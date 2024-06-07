@@ -9,6 +9,7 @@ images/
 *.xml
 *.h5
 *.jpg
+*.png
 
 # 忽略权重文件
 *.ckpt
