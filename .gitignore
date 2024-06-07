@@ -1,0 +1,67 @@
+# 忽略所有的数据文件和目录
+images/
+*.csv
+*.tsv
+*.dat
+*.json
+*.xml
+*.h5
+*.jpg
+
+# 忽略权重文件
+*.ckpt
+*.weights
+*.h5
+*.pt
+
+# 忽略编译器生成的文件
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+*.pyo
+*.out
+
+# 忽略临时文件和目录
+*.tmp
+*.temp
+*.log
+*.pid
+*.swp
+
+# 忽略 IDE 和编辑器产生的文件
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# 忽略操作系统产生的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 忽略环境配置文件
+.env
+.venv/
+env/
+venv/
+
+# 忽略包管理器产生的文件和目录
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+__pycache__/
+
+# 忽略本地配置文件
+*.local
+*.lock
+*.bak
+*.backup
+*.orig
+*.old
